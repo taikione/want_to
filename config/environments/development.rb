@@ -42,7 +42,7 @@ WantTo::Application.configure do
   config.logger = Logger.new(config.paths["log"].first)
   config.logger.formatter = Logger::Formatter.new
 
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'www.localhost:3000' }
 
   config.action_mailer.delivery_method = :smtp
 
